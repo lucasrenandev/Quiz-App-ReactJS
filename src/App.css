@@ -1,0 +1,91 @@
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #030315;
+  color: #fff;
+  display: grid;
+  place-content: center;
+}
+
+.start-box,
+.exit-box {
+  text-align: center;
+}
+
+.start-box h2,
+.exit-box p {
+  font-size: 2.2rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+  padding: 0 10px;
+}
+
+.start-box button,
+.exit-box button {
+  display: inline-block;
+  padding: 8px 24px;
+  background-color: #008000;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: 1px;  
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.exit-box {
+  display: none;
+}
+
+.quiz-content {
+  width: 560px;
+  max-width: 100vw;
+  height: auto;
+  padding: 0 1rem;
+}
+
+.quiz-app {
+  width: 100%;
+  padding: 25px 20px;
+  background-color: #fff;
+  color: #000;
+  border-radius: 4px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.title p,
+.title span {
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.buttons {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.buttons button {
+  padding: 12px;
+  background-color: #00495f;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.quiz-content {
+  display: none;
+}
